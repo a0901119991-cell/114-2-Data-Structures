@@ -1,3 +1,4 @@
+class Solution {
 public:
     int findLucky(vector<int>& arr) {
         // 題目限制數字最大為 500，設定501 的陣列
