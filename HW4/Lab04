@@ -34,3 +34,19 @@ int main() {
  printStudent(one);  
  return 0; 
 }
+
+
+
+#include <iostream> 
+#include <string> 
+using namespace std; 
+struct Student {//建立一個名為Student的結構型態，裡面包含int、string等不同類型 的資料型態 
+ int id; 
+ string name; 
+ int chinese; 
+ int english; 
+ int math; 
+ int social; 
+ int science; 
+}; 
+
